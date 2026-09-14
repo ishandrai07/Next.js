@@ -29,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/sample">Sample Page</Link>
+        <Link href="/classroom">Classroom</Link>
         </nav>
         <div className="bg-red-400">
         {children}
